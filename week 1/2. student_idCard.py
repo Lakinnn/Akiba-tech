@@ -1,0 +1,20 @@
+print("+-----STUDENT INFORMATION-----+")
+
+name = input("Write your full name: ")
+id = input("Write your student id: ")
+dept = input("Enter your department: ")
+year = input("Write your year: " )
+uni = input("Write your university name: ")
+phone = input("Write your phone number: ")
+
+print("+-------------------------+")
+print (" STUDENT CARD ")
+print("+-------------------------+")
+
+print(f"Name: ",name)
+print (f"ID: ",id)
+print(f"Deparment: ",dept)
+print (f"Year: ", year)
+print (f"University: ",uni)
+print(f"Phone: ",phone)
+print("+-------------------------+")
