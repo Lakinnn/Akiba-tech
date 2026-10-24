@@ -16,6 +16,3 @@ print ("Height: ",height)
 
 print ("-"*20)
 print ("BMI: ",bmi)
-
-
-
