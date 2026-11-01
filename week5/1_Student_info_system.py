@@ -1,11 +1,9 @@
 class Student:
-    school_name = "Akiba Academy"
 
-    def __init__(self, name, age, department, score=None):
+    def __init__(self, name, age, department):
         self.name = name
         self.age = age
         self.department = department
-        self.score = score
 
     def display_info(self):
         print(f"Name: {self.name}")
@@ -14,11 +12,9 @@ class Student:
         print()
 
     def display(self):
-        print(f"School: {self.school_name}")
         print(f"Name: {self.name}")
         print(f"Age: {self.age}")
         print(f"Department: {self.department}")
-        print(f"Score: {self.score}")
         print()
 
 
